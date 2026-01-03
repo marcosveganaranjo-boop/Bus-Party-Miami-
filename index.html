@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Party Miami</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>🚌 Bus Party Miami</h1>
+    <p>La mejor fiesta sobre ruedas en Miami</p>
+    <a class="btn" href="https://wa.me/17864627173" target="_blank">
+        Reserva por WhatsApp
+    </a>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#reservas">Reservas</a>
+</nav>
+
+<section id="inicio">
+    <h2>Vive la experiencia Bus Party</h2>
+    <p>
+        Celebra cumpleaños, despedidas y eventos privados
+        con música, luces y un recorrido inolvidable por Miami.
+    </p>
+</section>
+
+<section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+        <li>🎉 Cumpleaños</li>
+        <li>🥳 Despedidas de soltero/a</li>
+        <li>🎶 Eventos privados</li>
+        <li>🌃 Tours nocturnos con fiesta</li>
+    </ul>
+</section>
+
+<section id="reservas">
+    <h2>Reserva tu Bus Party</h2>
+
+    <form action="https://formsubmit.co/tuemail@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Nueva reserva Bus Party Miami">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>Teléfono / WhatsApp:</label>
+        <input type="tel" name="telefono" required>
+
+        <label>Fecha del evento:</label>
+        <input type="date" name="fecha" required>
+
+        <label>Tipo de evento:</label>
+        <select name="evento" required>
+            <option value="">Selecciona una opción</option>
+            <option>Cumpleaños</option>
+            <option>Despedida de soltero/a</option>
+            <option>Evento privado</option>
+            <option>Tour nocturno</option>
+        </select>
+
+        <label>Mensaje:</label>
+        <textarea name="mensaje" rows="4"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Bus Party Miami</p>
+</footer>
+
+</body>
+</html>

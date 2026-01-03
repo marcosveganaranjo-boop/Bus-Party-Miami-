@@ -1,0 +1,87 @@
+		body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+nav {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #00ffcc;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    background-color: #1c1c1c;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #00ffcc;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00ddb3;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: #aaa;
+}
